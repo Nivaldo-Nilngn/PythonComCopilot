@@ -1,4 +1,4 @@
-# Concatenando Dados 🐾
+# 1 - Concatenando Dados 🐾
 
 ## Descrição
 
@@ -30,8 +30,9 @@ info_concatenada = info1 + " " + info2
 
 print("Informações concatenadas: ", info_concatenada)
 
+```
 
-# Repetindo Textos ✏️
+# 2 - Repetindo Textos ✏️
 
 ## Descrição
 
@@ -60,10 +61,13 @@ Este script em Python solicita uma string e um número inteiro como entrada do u
 string = input("Digite uma string: ")
 numero = int(input("Digite um número inteiro: "))
 
-resultado =
+resultado = ' '.join([string] * numero)
 
+print("Resultado da multiplicação: ", resultado)
 
-# Operações Matemáticas 🧮
+```
+
+# 3 - Operações Matemáticas 🧮
 
 ## Descrição
 
@@ -107,8 +111,9 @@ else:
 
 print("Resultado da operação: ", resultado)
 
+```
 
-# Verificação de Par ou Ímpar 🔢
+# 4 - Verificação de Par ou Ímpar 🔢
 
 ## Descrição
 
@@ -133,7 +138,7 @@ Este script em Python solicita um número inteiro do usuário e verifica se ele 
 ## Código
 
 ```python
-# Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. Utilize condicionais para realizar a verificação e exibir a resposta ao usuário.
+#Como entrada, receba um número inteiro e verifique se ele é par ou ímpar Utilize condicionais para realizar a verificação e exibir a resposta ao usuário.
 
 numero = int(input("Digite um número inteiro: "))
 if numero % 2 == 0:
@@ -141,8 +146,8 @@ if numero % 2 == 0:
 else:
     print("O número é ímpar.")
 
-
-# Cálculo da Média 📊
+```
+# 5 - Cálculo da Média 📊
 
 ## Descrição
 
@@ -165,7 +170,7 @@ Este script em Python solicita três notas do usuário e calcula a média aritm�
 ## Código
 
 ```python
-# Agora vamos calcular a média de três notas fornecidas na entrada do usuário. Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
+#Agora vamos calcular a média de três notas fornecidas na entrada do usuário Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
 
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
@@ -175,8 +180,9 @@ media = (nota1 + nota2 + nota3) / 3
 
 print(f"A média das notas é: {media}")
 
+```
 
-# Verificação de Palíndromos 🔄
+# 6 - Verificação de Palíndromos 🔄
 
 ## Descrição
 
@@ -202,7 +208,7 @@ Este script em Python verifica se uma palavra fornecida pelo usuário é um pal�
 ## Código
 
 ```python
-# Vamos testar se uma palavra é um palíndromo. Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
+# Vamos testar se uma palavra é um palíndromo Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
 
 import difflib
 
@@ -220,3 +226,5 @@ print(f"Palavra invertida: {palavra_invertida}")
 # Comparando as diferenças
 diferencas = difflib.ndiff(palavra, palavra_invertida)
 print('\n'.join(diferencas))
+
+```
